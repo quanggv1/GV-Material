@@ -1,0 +1,6 @@
+framework module Pods_GVMaterial {
+  umbrella header "Pods-GVMaterial-umbrella.h"
+
+  export *
+  module * { export * }
+}

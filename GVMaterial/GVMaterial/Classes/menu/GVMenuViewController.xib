@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GVMenuViewController" customModule="GVMaterial" customModuleProvider="target">
+            <connections>
+                <outlet property="menuTableView" destination="sJG-tL-xzR" id="l1V-S4-oV6"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="UIControl">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="sJG-tL-xzR">
+                    <rect key="frame" x="0.0" y="128" width="281.5" height="539"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jmB-Qy-QLE">
+                    <rect key="frame" x="0.0" y="0.0" width="281.5" height="128"/>
+                    <color key="backgroundColor" red="0.1085883247" green="0.60603841150000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="128" id="JxY-t0-0hB"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="sJG-tL-xzR" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="8BN-Fq-r5w"/>
+                <constraint firstItem="sJG-tL-xzR" firstAttribute="top" secondItem="jmB-Qy-QLE" secondAttribute="bottom" id="9En-Ko-WUg"/>
+                <constraint firstItem="sJG-tL-xzR" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="PNF-Xl-2WQ"/>
+                <constraint firstItem="jmB-Qy-QLE" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="3:4" id="YoX-0O-I8j"/>
+                <constraint firstItem="jmB-Qy-QLE" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="bmM-kI-t1m"/>
+                <constraint firstItem="sJG-tL-xzR" firstAttribute="width" secondItem="jmB-Qy-QLE" secondAttribute="width" id="cIH-St-cU0"/>
+                <constraint firstItem="jmB-Qy-QLE" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="enN-Vv-eRJ"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <connections>
+                <action selector="hide" destination="-1" eventType="touchUpInside" id="6qg-7R-Bl7"/>
+            </connections>
+            <point key="canvasLocation" x="39.5" y="53.5"/>
+        </view>
+    </objects>
+</document>
