@@ -26,12 +26,15 @@ class PTRTableView: UITableView {
     ptfLabel!.autoresizingMask = .flexibleWidth
     
     imageView = UIImageView(frame: CGRect(x: 10, y: 5, width: 60, height: 60))
-    imageView!.image = #imageLiteral(resourceName: "ic_arrow_downward").withRenderingMode(.alwaysTemplate)
+    imageView?.contentMode = .scaleAspectFit
+    imageView!.image = #imageLiteral(resourceName: "ic_arrow_downward.png").withRenderingMode(.alwaysTemplate)
     imageView?.tintColor = UIColor.blue.withAlphaComponent(0.4)
     
     view.addSubview(imageView!)
     view.addSubview(ptfLabel!)
     self.addSubview(view)
+    
+//    URLSession.shared.configuration
   }
   
   func pullToFresh(_ action: @escaping () -> ()) {

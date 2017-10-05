@@ -58,5 +58,9 @@ extension PullToRefreshTableViewController: UITableViewDelegate, UITableViewData
     cell!.textLabel?.text = data[indexPath.row]
     return cell!
   }
+  
+  func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    tableView.deselectRow(at: indexPath, animated: true)
+  }
 }
 

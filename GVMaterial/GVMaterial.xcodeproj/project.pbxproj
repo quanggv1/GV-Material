@@ -28,6 +28,7 @@
 		3DC8582A1F7C9875004130A4 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC858291F7C9875004130A4 /* ActivityIndicator.swift */; };
 		3DC8582F1F7C9FEF004130A4 /* PTRTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8582E1F7C9FE5004130A4 /* PTRTableView.swift */; };
 		3DF075F61F7DEB9200519FDA /* ic_autorenew.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DF075F51F7DEA9000519FDA /* ic_autorenew.png */; };
+		3DF075FC1F7E352800519FDA /* ic_arrow_downward.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DF075FB1F7E351A00519FDA /* ic_arrow_downward.png */; };
 		CD47815E3FEA2F2C96C4C7F1 /* Pods_GVMaterial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07516F65B50DAAE37CB878A7 /* Pods_GVMaterial.framework */; };
 /* End PBXBuildFile section */
 
@@ -83,6 +84,7 @@
 		3DC858291F7C9875004130A4 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		3DC8582E1F7C9FE5004130A4 /* PTRTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTRTableView.swift; sourceTree = "<group>"; };
 		3DF075F51F7DEA9000519FDA /* ic_autorenew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_autorenew.png; sourceTree = "<group>"; };
+		3DF075FB1F7E351A00519FDA /* ic_arrow_downward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_arrow_downward.png; sourceTree = "<group>"; };
 		42C09E6A26DF6C47C1EA523B /* Pods-GVMaterial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GVMaterial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GVMaterial/Pods-GVMaterial.debug.xcconfig"; sourceTree = "<group>"; };
 		ADDBED9258CF9B3479167E32 /* Pods-GVMaterial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GVMaterial.release.xcconfig"; path = "Pods/Target Support Files/Pods-GVMaterial/Pods-GVMaterial.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -216,6 +218,7 @@
 			isa = PBXGroup;
 			children = (
 				3DC8582E1F7C9FE5004130A4 /* PTRTableView.swift */,
+				3DF075FB1F7E351A00519FDA /* ic_arrow_downward.png */,
 			);
 			name = PTRTableView;
 			path = GVMaterial/Classes/PTRTableView;
@@ -347,6 +350,7 @@
 				3D462A1B1F7B393B004323D2 /* GVMenuViewController.xib in Resources */,
 				3D462A1F1F7B3A5B004323D2 /* GVMenuTableViewCell.xib in Resources */,
 				3DF075F61F7DEB9200519FDA /* ic_autorenew.png in Resources */,
+				3DF075FC1F7E352800519FDA /* ic_arrow_downward.png in Resources */,
 				3D462A081F7B37C0004323D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

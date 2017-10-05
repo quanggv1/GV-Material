@@ -28,8 +28,7 @@ class ViewController: UIViewController {
     rootViewController = vc.view
     rootViewController.frame = UIScreen.main.bounds
     view.addSubview(rootViewController)
-    NSLayoutConstraint(item: rootViewController, attribute: .width, relatedBy: .equal, toItem: view, attribute: .width, multiplier: 1.0, constant: 0.0).isActive = true
-    NSLayoutConstraint(item: rootViewController, attribute: .height, relatedBy: .equal, toItem: view, attribute: .height, multiplier: 1.0, constant: 0.0).isActive = true
+    
   }
 }
 
